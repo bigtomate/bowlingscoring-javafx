@@ -1,5 +1,4 @@
-package sample;//
-// Source code recreated from a .class file by IntelliJ IDEA
+package org.example;// Source code recreated from a .class file by IntelliJ IDEA
 // (powered by Fernflower decompiler)
 //
 
@@ -134,7 +133,7 @@ public class BowlingScoring extends Application {
     };
 
     public void start(Stage stage) throws Exception {
-        Parent root = FXMLLoader.load(getClass().getResource("sample.fxml"));
+        Parent root = FXMLLoader.load(getClass().getResource("/sample.fxml"));
         Label label = new Label("Bowling Scoring");
         Scene scene = new Scene(root);
         stage.setTitle("Bowling Sheet");
