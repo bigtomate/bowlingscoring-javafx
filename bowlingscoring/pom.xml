@@ -7,6 +7,7 @@
     <groupId>org.example</groupId>
     <artifactId>bowlingscoring</artifactId>
     <version>1.0-SNAPSHOT</version>
+    <packaging>jar</packaging>
 
     <properties>
         <maven.compiler.source>11</maven.compiler.source>
@@ -53,6 +54,15 @@
                     <jlinkImageName>hellofx</jlinkImageName>
                     <launcher>launcher</launcher>
                     <mainClass>hellofx/org.openjfx.App</mainClass>
+                </configuration>
+            </plugin>
+            <plugin>
+                <groupId>com.google.cloud.tools</groupId>
+                <artifactId>appengine-maven-plugin</artifactId>
+                <version>2.4.4</version>
+                <configuration>
+                    <project>bowling</project>
+                    <projectId>bowling-413521</projectId>
                 </configuration>
             </plugin>
         </plugins>
