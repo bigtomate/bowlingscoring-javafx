@@ -13,7 +13,7 @@
         <maven.compiler.source>9</maven.compiler.source>
         <maven.compiler.target>9</maven.compiler.target>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <javafx.version>11</javafx.version>
+        <javafx.version>9</javafx.version>
         <javafx.maven.plugin.version>0.0.8</javafx.maven.plugin.version>
         <jvm.modules>javafx.graphics,javafx.controls,javafx.fxml</jvm.modules>
     </properties>
