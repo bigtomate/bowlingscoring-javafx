@@ -1,4 +1,4 @@
 runtime: java
 env: flex
 runtime_config:
-  jdk: openjdk11
+  jdk: openjdk9
