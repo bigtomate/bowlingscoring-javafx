@@ -65,8 +65,8 @@
                 <artifactId>appengine-maven-plugin</artifactId>
                 <version>2.4.4</version>
                 <configuration>
-                    <project>bowling</project>
-                    <projectId>bowling-413521</projectId>
+                    <project>mybowling</project>
+                    <projectId>mybowling-414121</projectId>
                 </configuration>
             </plugin>
             <plugin>
