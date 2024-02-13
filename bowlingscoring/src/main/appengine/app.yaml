@@ -1,2 +1,3 @@
 runtime: java11
 env: flex
+entrypoint: java -Xmx64m -jar bowlingscoring-1.0-SNAPSHOT.jar
