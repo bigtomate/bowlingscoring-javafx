@@ -56,8 +56,13 @@
                 <version>${javafx.maven.plugin.version}</version>
                 <configuration>
                     <jlinkImageName>bowling</jlinkImageName>
-                    <launcher>launcher</launcher>
-                    <mainClass>org.example.BowlingScoring</mainClass>
+                    <noHeaderFiles>true</noHeaderFiles>
+                    <stripDebug>true</stripDebug>
+                    <noManPages>true</noManPages>
+                    <jlinkZipName>bowlingscoring</jlinkZipName>
+                    <mainClass>bowlingscoring/org.example.BowlingScoring</mainClass>
+                    <launcher>bowlingscoring/org.example.BowlingScoring</launcher>
+                    <jlinkImageName>bowlingscoring</jlinkImageName>
                 </configuration>
             </plugin>
             <plugin>
