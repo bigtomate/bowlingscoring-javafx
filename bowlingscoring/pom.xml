@@ -61,7 +61,7 @@
                     <noManPages>true</noManPages>
                     <jlinkZipName>bowlingscoring</jlinkZipName>
                     <mainClass>bowlingscoring/org.example.BowlingScoring</mainClass>
-                    <launcher>bowlingscoring/org.example.BowlingScoring</launcher>
+                    <launcher>bowlingscoring</launcher>
                     <jlinkImageName>bowlingscoring</jlinkImageName>
                 </configuration>
             </plugin>
